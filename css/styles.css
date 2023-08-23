@@ -322,7 +322,6 @@ a {
   text-align: center;
   padding-bottom: 4rem;
   position: relative;
-  border-bottom: 1px solid #dadada;
 }
 
 .intro .contain {
@@ -342,6 +341,11 @@ a {
 .intro-description {
   font-size: 1.75rem;
   color: #717171;
+}
+
+.intro-image img {
+  display: block;
+  width: 100%;
 }
 
 @media screen and (min-width: 900px) {
@@ -379,6 +383,10 @@ a {
   text-align: center;
   font-size: 1.75rem;
   color: #717171;
+}
+
+.practice-description em {
+  color: #000;
 }
 
 .practice-info-box {
